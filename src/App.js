@@ -19,8 +19,8 @@ function App() {
   return (
     <div className="App">
       <div className="head">
-      <a href='https://twitter.com/MNFSTLabs'><img src={micon} className='icon'/></a>
-      <a href='https://twitter.com/0xPolygon'><img src={picon} className='icon'/></a>
+      <a href='https://twitter.com/MNFSTLabs' target="_blank"><img src={micon} className='icon'/></a>
+      <a href='https://twitter.com/0xPolygon' target="_blank"><img src={picon} className='icon'/></a>
       </div>
       <h1 className='mheadt'>RING RUNNERZ</h1>
       <div className='three'>
@@ -87,17 +87,17 @@ function App() {
     <div className="mainpd">
     
     <div className="mainpd1">
-    <a href = "https://twitter.com/MrMintETH/" >
+    <a href = "https://twitter.com/MrMintETH/"target="_blank" >
     <Teamp name = "MRMINT.ETH" dis ="Founder" pfp = {mr}/>
     </a>
 
-    <a href = "https://twitter.com/pixxelznft" >
+    <a href = "https://twitter.com/pixxelznft" target="_blank">
     <Teamp name = "PIXXELZ.ETH" dis ="Head of Marketing" pfp = {pix}/>
     </a>
     </div>
 
     <div className="mainpd1">
-    <a href = "https://twitter.com/mikeejt" >
+    <a href = "https://twitter.com/mikeejt" target="_blank">
     <Teamp name = "MIKEEJT" dis ="Dev Lead" pfp = {mike}/>
     </a>
     
@@ -108,19 +108,19 @@ function App() {
     </div>
     <img src= {mainf} className='mainf'/>
     <h2 className='minte'>Mint and Trade Exclusively on</h2>
-    <a href='https://magiceden.io/launchpad/polygon/ring_runnerz'><img src= {me} className='me'/></a>
+    <a href='https://magiceden.io/launchpad/polygon/ring_runnerz' target="_blank"><img src= {me} className='me'/></a>
    
     <div className='lastm' >
     <div className = "icond">
-    <a href = "https://discord.gg/trippinapetribe" target="_blank" >
+    <a href = "https://discord.gg/mnfstlabs" target="_blank" >
     <FaDiscord className='icont'/>
     </a>
-    <a href = "https://twitter.com/TrippinApeNFT" target="_blank">
+    <a href = "https://twitter.com/RingRunnerz" target="_blank">
     <FaTwitter className='icont'/>
     </a>
     </div>
     <div className='lastb'>
-    <p className='created'> created with ❤️ by </p><a href= "https://twitter.com/yeahbichscience"> 
+    <p className='created'> created with ❤️ by </p><a href= "https://twitter.com/yeahbichscience" target="_blank"> 
     <p className='italics'>yeahbitchscience</p>
     </a>
     </div>

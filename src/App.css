@@ -17,7 +17,7 @@
 .three{
   display: flex;
   width: 90vw;
-  transform: translateY(-45%);
+  transform: translateY(-15vw);
   
 }
 
@@ -74,7 +74,6 @@
   justify-content: center;
   background-color: #1f1f1f;
   min-height: 100vh;
-  padding: 100px 0;
   font-family: Jost;
 }
 
@@ -277,3 +276,1014 @@ a{
   background-size: cover;
   bottom:0;
  }
+
+ 
+
+@media only screen and (max-width: 900px) and (min-width: 801px){
+  .mheadt{
+    padding-top: 20vh;
+    font-size: 8.5vw;
+  }
+
+  .minfo {
+    font-size: 4vw;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+  }
+
+  .infop{
+    font-size: 2vw;
+    width: 84vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-bottom: 2vh;
+  }
+  .p1{
+    width: 48vw;
+    transform: translateX(0%);
+    margin: 0;
+  }
+  .p2{
+    width: 48vw;
+    z-index: 2;
+    transform: translateX(-49%);
+    margin: 0;
+  }
+  .p3{
+    width: 48vw;
+    transform: translateX(-100%);
+    margin: 0;
+  }
+ 
+  .sea{
+    font-size: 2.3vw;
+  }
+
+  .seap{
+    font-size: 1.6vw;
+  }
+
+  .mmn{
+    font-size: 4vw;
+  }
+  
+  .pfp{
+    width: 15vw;
+    height:15vw;
+ 
+  }
+  
+  .teamm{
+
+    margin-bottom: 3vh;
+    width: 30vw;
+  }
+
+  .name{
+    font-size: 2.1vw;
+    font-weight: 400;
+  }
+  .pdis{
+    font-size: 1.6vw;
+    font-weight: 400;
+    
+  }
+  
+  .mainf{
+    width: 70vw;
+    padding-top: 12vh;
+   }
+   
+   .minte{
+     font-family: 'Oswald', sans-serif;
+     font-size: 2vw;
+     
+     color: #ccc5b9;
+     transform: translateY(15.5vw);
+   }
+   
+   .me{
+    width: 50vw;
+   }
+  
+   .created{
+    font-family: 'Geologica', sans-serif;
+    color:#ccc5b9;
+    font-size: 1.6vw;
+    
+  }
+  
+  .lastb{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .italics{
+
+    padding-top: 0.1vw;
+    padding-left: 0.4vw;
+  
+    font-size: 1.6vw;
+  }
+  
+  .icont{
+  
+    font-size: 5vw;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    padding-top: 2vh;
+  
+   }
+  
+   .lastm{
+    height: 19vh;
+   }
+
+   .icon{
+    max-height: 6vw;
+  }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 701px){
+  .mheadt{
+    padding-top: 20vh;
+    font-size: 8.5vw;
+  }
+
+  .minfo {
+    font-size: 4vw;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+  }
+
+  .infop{
+    font-size: 2vw;
+    width: 84vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-bottom: 2vh;
+  }
+  .p1{
+    width: 48vw;
+    transform: translateX(0%);
+    margin: 0;
+  }
+  .p2{
+    width: 48vw;
+    z-index: 2;
+    transform: translateX(-49%);
+    margin: 0;
+  }
+  .p3{
+    width: 48vw;
+    transform: translateX(-100%);
+    margin: 0;
+  }
+ 
+  .sea{
+    font-size: 2.3vw;
+  }
+
+  .seap{
+    font-size: 2vw;
+  }
+
+  .mmn{
+    font-size: 4vw;
+  }
+  
+  .pfp{
+    width: 15vw;
+    height:15vw;
+ 
+  }
+  
+  .teamm{
+
+    margin-bottom: 3vh;
+    width: 30vw;
+  }
+
+  .name{
+    font-size: 2.1vw;
+    font-weight: 400;
+  }
+  .pdis{
+    font-size: 1.6vw;
+    font-weight: 400;
+    
+  }
+  
+  .mainf{
+    width: 70vw;
+    padding-top: 12vh;
+   }
+   
+   .minte{
+     font-family: 'Oswald', sans-serif;
+     font-size: 2vw;
+     
+     color: #ccc5b9;
+     transform: translateY(15.5vw);
+   }
+   
+   .me{
+    width: 50vw;
+   }
+  
+   .created{
+    font-family: 'Geologica', sans-serif;
+    color:#ccc5b9;
+    font-size: 1.6vw;
+    
+  }
+  
+  .lastb{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .italics{
+
+    padding-top: 0.1vw;
+    padding-left: 0.4vw;
+  
+    font-size: 1.6vw;
+  }
+  
+  .icont{
+  
+    font-size: 5vw;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    padding-top: 2vh;
+  
+   }
+  
+   .lastm{
+    height: 18vh;
+   }
+
+   .icon{
+    max-height: 6vw;
+  }
+}
+
+@media only screen and (max-width: 700px) and (min-width: 601px){
+  .mheadt{
+    padding-top: 20vh;
+    font-size: 8.5vw;
+  }
+
+  .minfo {
+    font-size: 4.5vw;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+  }
+
+  .infop{
+    font-size: 2vw;
+    width: 84vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-bottom: 2vh;
+  }
+  .p1{
+    width: 48vw;
+    transform: translateX(0%);
+    margin: 0;
+  }
+  .p2{
+    width: 48vw;
+    z-index: 2;
+    transform: translateX(-49%);
+    margin: 0;
+  }
+  .p3{
+    width: 48vw;
+    transform: translateX(-100%);
+    margin: 0;
+  }
+ 
+  .sea{
+    font-size: 2.5vw;
+  }
+
+  .seap{
+    font-size: 2vw;
+  }
+
+  .mmn{
+    font-size: 4vw;
+  }
+  
+  .pfp{
+    width: 18vw;
+    height:18vw;
+ 
+  }
+  
+  .teamm{
+
+    margin-bottom: 3vh;
+    width: 32vw;
+  }
+
+  .name{
+    font-size: 2.1vw;
+    font-weight: 400;
+  }
+  .pdis{
+    font-size: 1.6vw;
+    font-weight: 400;
+    
+  }
+  
+  .mainf{
+    width: 70vw;
+    padding-top: 12vh;
+   }
+   
+   .minte{
+     font-family: 'Oswald', sans-serif;
+     font-size: 2vw;
+     
+     color: #ccc5b9;
+     transform: translateY(15.5vw);
+   }
+   
+   .me{
+    width: 50vw;
+   }
+  
+   .created{
+    font-family: 'Geologica', sans-serif;
+    color:#ccc5b9;
+    font-size: 2vw;
+    
+  }
+  
+  .lastb{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .italics{
+
+    padding-top: 0.1vw;
+    padding-left: 0.4vw;
+  
+    font-size: 2vw;
+  }
+  
+  .icont{
+  
+    font-size: 6vw;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    padding-top: 2vh;
+  
+   }
+  
+   .lastm{
+    height: 18vh;
+   }
+
+   .icon{
+    max-height: 8vw;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 600px){
+  .mheadt{
+    padding-top: 30vh;
+    font-size: 9vw;
+  }
+
+  .minfo {
+    font-size: 4.5vw;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+  }
+
+  .infop{
+    font-size: 2.5vw;
+    width: 90vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 2vh;
+  }
+  .p1{
+    width: 48vw;
+    transform: translateX(0%);
+    margin: 0;
+  }
+  .p2{
+    width: 48vw;
+    z-index: 2;
+    transform: translateX(-49%);
+    margin: 0;
+  }
+  .p3{
+    width: 48vw;
+    transform: translateX(-100%);
+    margin: 0;
+  }
+ 
+  .sea{
+    font-size: 3vw;
+  }
+
+  .seap{
+    font-size: 2.5vw;
+  }
+
+  .mmn{
+    font-size: 4.5vw;
+  }
+  
+  .pfp{
+    width: 20vw;
+    height:20vw;
+ 
+  }
+  
+  .teamm{
+
+    margin-bottom: 3vh;
+    width: 41vw;
+  }
+
+  .name{
+    font-size: 2.5vw;
+    font-weight: 400;
+  }
+  .pdis{
+    font-size: 2vw;
+    font-weight: 400;
+    
+  }
+  
+  .mainf{
+    width: 70vw;
+    padding-top: 12vh;
+   }
+   
+   .minte{
+     font-family: 'Oswald', sans-serif;
+     font-size: 3vw;
+     
+     color: #ccc5b9;
+     transform: translateY(18vw);
+   }
+   
+   .me{
+    width: 60vw;
+   }
+  
+   .created{
+    font-family: 'Geologica', sans-serif;
+    color:#ccc5b9;
+    font-size: 2.5vw;
+    
+  }
+  
+  .lastb{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .italics{
+
+    padding-top: 0.1vw;
+    padding-left: 0.4vw;
+  
+    font-size: 2.5vw;
+  }
+  
+  .icont{
+  
+    font-size: 8vw;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    padding-top: 2vh;
+  
+   }
+  
+   .lastm{
+    height: 20vh;
+   }
+
+   .icon{
+    max-height: 8vw;
+  }
+}
+
+
+@media only screen and (min-width: 401px) and (max-width: 500px){
+  .mheadt{
+    padding-top: 52vh;
+    font-size: 10vw;
+  }
+
+  .minfo {
+    font-size: 5vw;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+  }
+
+  .infop{
+    font-size: 3vw;
+    width: 90vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 2vh;
+  }
+  .p1{
+    width: 48vw;
+    transform: translateX(0%);
+    margin: 0;
+  }
+  .p2{
+    width: 48vw;
+    z-index: 2;
+    transform: translateX(-49%);
+    margin: 0;
+  }
+  .p3{
+    width: 48vw;
+    transform: translateX(-100%);
+    margin: 0;
+  }
+ 
+  .sea{
+    font-size: 3.5vw;
+  }
+
+  .seap{
+    font-size: 3vw;
+  }
+
+  .mmn{
+    font-size: 5vw;
+  }
+  
+  .pfp{
+    width: 20vw;
+    height:20vw;
+ 
+  }
+  
+  .teamm{
+
+    margin-bottom: 3vh;
+    width: 41vw;
+  }
+
+  .name{
+    font-size: 2.5vw;
+    font-weight: 400;
+  }
+  .pdis{
+    font-size: 2vw;
+    font-weight: 400;
+    
+  }
+  
+  .mainf{
+    width: 70vw;
+    padding-top: 12vh;
+   }
+   
+   .minte{
+     font-family: 'Oswald', sans-serif;
+     font-size: 3vw;
+     
+     color: #ccc5b9;
+     transform: translateY(18vw);
+   }
+   
+   .me{
+    width: 60vw;
+   }
+  
+   .created{
+    font-family: 'Geologica', sans-serif;
+    color:#ccc5b9;
+    font-size: 3.5vw;
+    
+  }
+  
+  .lastb{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .italics{
+
+    padding-top: 0.1vw;
+    padding-left: 0.4vw;
+  
+    font-size: 3.5vw;
+  }
+  
+  .icont{
+  
+    font-size: 10vw;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    padding-top: 2vh;
+  
+   }
+  
+   .lastm{
+    height: 20vh;
+   }
+
+   .icon{
+    max-height: 10vw;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 400px){
+  .mheadt{
+    padding-top: 50vh;
+    font-size: 10vw;
+  }
+
+  .minfo {
+    font-size: 5vw;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+  }
+
+  .infop{
+    font-size: 3vw;
+    width: 90vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 2vh;
+  }
+  .p1{
+    width: 48vw;
+    transform: translateX(0%);
+    margin: 0;
+  }
+  .p2{
+    width: 48vw;
+    z-index: 2;
+    transform: translateX(-49%);
+    margin: 0;
+  }
+  .p3{
+    width: 48vw;
+    transform: translateX(-100%);
+    margin: 0;
+  }
+ 
+  .sea{
+    font-size: 3.5vw;
+  }
+
+  .seap{
+    font-size: 3vw;
+  }
+
+  .mmn{
+    font-size: 5vw;
+  }
+  
+  .pfp{
+    width: 20vw;
+    height:20vw;
+ 
+  }
+  
+  .teamm{
+
+    margin-bottom: 3vh;
+    width: 41vw;
+  }
+
+  .name{
+    font-size: 2.5vw;
+    font-weight: 400;
+  }
+  .pdis{
+    font-size: 2vw;
+    font-weight: 400;
+    
+  }
+  
+  .mainf{
+    width: 70vw;
+    padding-top: 12vh;
+   }
+   
+   .minte{
+     font-family: 'Oswald', sans-serif;
+     font-size: 3vw;
+     
+     color: #ccc5b9;
+     transform: translateY(18vw);
+   }
+   
+   .me{
+    width: 60vw;
+   }
+  
+   .created{
+    font-family: 'Geologica', sans-serif;
+    color:#ccc5b9;
+    font-size: 3.5vw;
+    
+  }
+  
+  .lastb{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .italics{
+
+    padding-top: 0.1vw;
+    padding-left: 0.4vw;
+  
+    font-size: 3.5vw;
+  }
+  
+  .icont{
+  
+    font-size: 10vw;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    padding-top: 2vh;
+  
+   }
+  
+   .lastm{
+    height: 18vh;
+   }
+
+   .icon{
+    max-height: 10vw;
+  }
+}
+
+@media only screen and (max-width: 320px) and (min-width: 291px){
+  .mheadt{
+    padding-top: 56vh;
+    font-size: 10vw;
+  }
+
+  .minfo {
+    font-size: 5vw;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+  }
+
+  .infop{
+    font-size: 3vw;
+    width: 90vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 2vh;
+  }
+  .p1{
+    width: 48vw;
+    transform: translateX(0%);
+    margin: 0;
+  }
+  .p2{
+    width: 48vw;
+    z-index: 2;
+    transform: translateX(-49%);
+    margin: 0;
+  }
+  .p3{
+    width: 48vw;
+    transform: translateX(-100%);
+    margin: 0;
+  }
+ 
+  .sea{
+    font-size: 3.5vw;
+  }
+
+  .seap{
+    font-size: 3vw;
+  }
+
+  .mmn{
+    font-size: 5vw;
+  }
+  
+  .pfp{
+    width: 20vw;
+    height:20vw;
+ 
+  }
+  
+  .teamm{
+
+    margin-bottom: 3vh;
+    width: 41vw;
+  }
+
+  .name{
+    font-size: 2.5vw;
+    font-weight: 400;
+  }
+  .pdis{
+    font-size: 2vw;
+    font-weight: 400;
+    
+  }
+  
+  .mainf{
+    width: 70vw;
+    padding-top: 12vh;
+   }
+   
+   .minte{
+     font-family: 'Oswald', sans-serif;
+     font-size: 3vw;
+     
+     color: #ccc5b9;
+     transform: translateY(18vw);
+   }
+   
+   .me{
+    width: 60vw;
+   }
+  
+   .created{
+    font-family: 'Geologica', sans-serif;
+    color:#ccc5b9;
+    font-size: 3.5vw;
+    
+  }
+  
+  .lastb{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .italics{
+
+    padding-top: 0.1vw;
+    padding-left: 0.4vw;
+  
+    font-size: 3.5vw;
+  }
+  
+  .icont{
+  
+    font-size: 10vw;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    padding-top: 2vh;
+  
+   }
+  
+   .lastm{
+    height: 16vh;
+   }
+
+   .icon{
+    max-height: 10vw;
+  }
+}
+
+@media only screen and (max-width: 290px){
+  .mheadt{
+    padding-top: 58vh;
+    font-size: 10vw;
+  }
+
+  .minfo {
+    font-size: 5vw;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+  }
+
+  .infop{
+    font-size: 3vw;
+    width: 90vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 2vh;
+  }
+  .p1{
+    width: 48vw;
+    transform: translateX(0%);
+    margin: 0;
+  }
+  .p2{
+    width: 48vw;
+    z-index: 2;
+    transform: translateX(-49%);
+    margin: 0;
+  }
+  .p3{
+    width: 48vw;
+    transform: translateX(-100%);
+    margin: 0;
+  }
+ 
+  .sea{
+    font-size: 3.5vw;
+  }
+
+  .seap{
+    font-size: 3vw;
+  }
+
+  .mmn{
+    font-size: 5vw;
+  }
+  
+  .pfp{
+    width: 20vw;
+    height:20vw;
+ 
+  }
+  
+  .teamm{
+
+    margin-bottom: 3vh;
+    width: 41vw;
+  }
+
+  .name{
+    font-size: 2.5vw;
+    font-weight: 400;
+  }
+  .pdis{
+    font-size: 2vw;
+    font-weight: 400;
+    
+  }
+  
+  .mainf{
+    width: 70vw;
+    padding-top: 12vh;
+   }
+   
+   .minte{
+     font-family: 'Oswald', sans-serif;
+     font-size: 3vw;
+     
+     color: #ccc5b9;
+     transform: translateY(18vw);
+   }
+   
+   .me{
+    width: 60vw;
+   }
+  
+   .created{
+    font-family: 'Geologica', sans-serif;
+    color:#ccc5b9;
+    font-size: 3.5vw;
+    
+  }
+  
+  .lastb{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .italics{
+
+    padding-top: 0.1vw;
+    padding-left: 0.4vw;
+  
+    font-size: 3.5vw;
+  }
+  
+  .icont{
+  
+    font-size: 10vw;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    padding-top: 2vh;
+  
+   }
+  
+   .lastm{
+    height: 13vh;
+   }
+
+   .icon{
+    max-height: 10vw;
+  }
+}

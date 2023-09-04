@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+
+*{
+margin: 0%;
+padding: 0;
+}
+
 .App {
   text-align: center;
+  margin: 0;
 }
 
 .head{
@@ -8,1282 +17,568 @@
   width: 96vw;
   padding-left: 2vw;
   padding-top: 2vh;
+  margin: 0;
 }
 
 .icon{
   max-height: 9vh;
+  margin: 0;
+}
+
+.mhead{
+  background:
+      linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ),
+      url("./assets/mimg.jpeg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 100vh;
+ position: relative;
+ margin: 0;
+ width: 100vw;
+}
+
+.mainbox{
+  bottom: 0px;
+  position: absolute;
 }
 
 .three{
   display: flex;
   width: 90vw;
-  transform: translateY(-15vw);
-  
+  margin: 0;
+  transform: translateX(-3%);
 }
 
 .p1{
-  width: 32vw;
+  width: 35vw;
   transform: translateX(50%);
   margin: 0;
 }
 .p2{
-  width: 32vw;
+  width: 35vw;
   z-index: 2;
   margin: 0;
 }
 .p3{
-  width: 32vw;
+  width: 35vw;
   transform: translateX(-50%);
   margin: 0;
 }
 .mheadt{
   font-family: 'Black Ops One', cursive;
-  font-size: 8vw;
-  padding-top: 10vh;
+  font-size: 12vw;
+  padding-top: 11vh;
   color: rgb(255, 149, 0);
- 
+  transform:translate(5%,63%);
 }
 
 .line{
   background-color: rgb(255, 149, 0);
   width:100vw;
   height: 1vh;
-  transform: translateY(-14.5vw);
+  margin: 0;
+  padding: 0;
 }
 
 .minfo{
+  padding-top: 15vh;
+  margin: 0%;
   font-family: 'Black Ops One', cursive;
   font-size: 3vw;
-  transform: translateY(-11vw);
   color: #eb5e28;
+  margin-bottom: 6vh;
 }
 
 .infop{
   font-family: 'Oswald', sans-serif;
   width: 70vw;
-  padding-left: 15vw;
-  transform: translateY(-10vw);
   color: #ccc5b9;
+  margin: auto;
+  margin-bottom: 12vh;
 }
 
-
-.design-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #1f1f1f;
-  min-height: 100vh;
-  font-family: Jost;
-}
-
-.design {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.timeline {
-  width: 80%;
-  height: auto;
-  max-width: 800px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-}
-
-.timeline-content {
-  padding: 20px;
-  background: #1f1f1f;
-  -webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
-          box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
-  border-radius: 5px;
-  color: #ccc5b9;
-  padding: 1.75rem;
-  transition: 0.4s ease;
-  overflow-wrap: break-word !important;
-  margin: 1rem;
-  margin-bottom: 20px;
-  border-radius: 6px;
-}
-
-.timeline-component {
-  margin: 0px 20px 20px 20px;
-}
-
-@media screen and (min-width: 768px) {
-  .timeline {
-    display: grid;
-    grid-template-columns: 1fr 3px 1fr;
-  }
-  .timeline-middle {
-    position: relative;
-    background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
-    width: 3px;
-    height: 100%;
-  }
-  .main-middle {
-    opacity: 0;
-  }
-  .timeline-circle {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-  }
-}
 
 .sea{
-  font-family: 'Black Ops One', cursive;
+font-family: 'Black Ops One', cursive;
 }
 
 .seap{
-  font-family: 'Oswald', sans-serif;
+font-family: 'Oswald', sans-serif;
 }
 
 
 .pfp{
-  width: 10vw;
-  height:10vw;
-  border-radius: 5px;
+width: 10vw;
+height:10vw;
+border-radius: 5px;
 }
 
 .teamm{
-  display: flex;
-  margin-bottom: 3vh;
-  width: 23vw;
+display: flex;
+margin-bottom: 3vh;
+width: 23vw;
 }
 
 .name{
-  font-size: 1.5vw;
-  font-weight: 800;
-  color: #ff7f51;
+font-size: 1.5vw;
+font-weight: 800;
+color: #ff7f51;
 }
 .pdis{
-  font-size: 1.1vw;
-  font-weight: 600;
-  color: #ccc5b9;
-  font-family: 'Oswald', sans-serif;
+font-size: 1.1vw;
+font-weight: 600;
+color: #ccc5b9;
+font-family: 'Oswald', sans-serif;
 }
 
 .pdism{
-  padding-top:1vh;
-  text-align: left;
-  padding-left: 2vw;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
-  height:3em;
+padding-top:1vh;
+text-align: left;
+padding-left: 2vw;
+display: flex;
+justify-content: center;
+align-content: center;
+flex-direction: column;
+height:3em;
 
-  font-family: 'Black Ops One', cursive;
+font-family: 'Black Ops One', cursive;
 }
 
 .mainpd{
-  display:flex;
-  width:84vw;
-  justify-content: space-evenly;
-  margin-left:8vw;
-  margin-right:8vw;
-  flex-direction: column;
- 
+display:flex;
+width:84vw;
+justify-content: space-evenly;
+margin-left:8vw;
+margin-right:8vw;
+flex-direction: column;
+
 }
 .mainpd1{
-  display:flex;
-  flex-direction: row;
-  width: 84vw;
-  justify-content: space-around;
+display:flex;
+flex-direction: row;
+width: 84vw;
+justify-content: space-around;
 }
 
 .mmn{
-  font-size: 1.4em;
-  font-family: 'Black Ops One', cursive;
-  width: 70vw;
-  padding-top: 7vh;
-  font-weight:500;
-  margin-left: 15vw;
-  margin-right: 15vw;
-  margin-bottom: 6vh;
-  padding-bottom: 0.8vh;
-  color: #eb5e28;
-  border-bottom: 2px solid white;
+font-size: 1.4em;
+font-family: 'Black Ops One', cursive;
+width: 70vw;
+padding-top: 7vh;
+font-weight:500;
+margin-left: 15vw;
+margin-right: 15vw;
+margin-bottom: 6vh;
+padding-bottom: 0.8vh;
+color: #eb5e28;
+border-bottom: 2px solid white;
 }
 
 a{
-  text-decoration: none;
+text-decoration: none;
 }
 
 .mainf{
- width: 40vw;
- padding-top: 20vh;
+width: 40vw;
+padding-top: 20vh;
 }
 
 .minte{
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.1vw;
-  
-  color: #ccc5b9;
-  transform: translateY(9vw);
+font-family: 'Oswald', sans-serif;
+font-size: 1.1vw;
+
+color: #ccc5b9;
+transform: translateY(9vw);
 }
 
 .me{
- width: 32vw;
+width: 32vw;
 }
 
 .created{
-  font-family: 'Geologica', sans-serif;
-  color:#ccc5b9
+font-family: 'Geologica', sans-serif;
+color:#ccc5b9
 }
 
 .lastb{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+display: flex;
+flex-direction: row;
+justify-content: center;
 }
 
 .italics{
-  font-style: italic;
-  font-family: 'Geologica', sans-serif;
-  padding-top: 0.1vw;
-  padding-left: 0.4vw;
-  color: #fbbe74;
+font-style: italic;
+font-family: 'Geologica', sans-serif;
+padding-top: 0.1vw;
+padding-left: 0.4vw;
+color: #fbbe74;
 }
 
-.icont{
-  color: white;
-  font-size: 4vw;
-  padding-right: 4vw;
-  padding-left: 4vw;
-  padding-top: 2vh;
-  filter: brightness(100%);
- }
+.icontt{
+color: white;
+font-size: 4vw;
+width: 10vw;
 
- .lastm{
-  width: 100vw;
-  height: 22vh;
+}
+
+.icond{
+  padding-top: 4vh;
+  padding-bottom: 2vh;
+}
+
+.lastm{
+width: 100vw;
+min-height: 23vh;
+background:
+linear-gradient(
+rgba(0, 0, 0, 0.7),
+rgba(0, 0, 0, 0.7)
+), 
+url('./assets/spart.jpeg');
+background-repeat: no-repeat;
+background-size: cover;
+
+margin: 0;
+padding: 0;
+}
+
+/*stats*/
+
+.tmaind{
+  width:70vw;
+  margin-left: 15vw;
+  padding-top: 1vh;
+}
+
+.tnum{
+  display:flex;
+  justify-content: space-between;
+  
+}
+
+.num{
+  font-size:6vw;
+  font-weight: 800;
+  background: rgb(253,187,45);
+  background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(42,34,195,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 0;
+    padding-bottom: 0;
+   
+  }
+
+  .ds{
+    font-family: 'Oswald', sans-serif;
+    font-size:1em;
+  font-weight: 400;
+  color: aliceblue;
+  }
+
+  
+
+  .spart{
+    background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+        /* bottom, image */
+        url("./assets/spart.jpeg");
+   background-size: cover;
+   height: 100vh;
+   width: 100vw;
+   background-repeat: no-repeat;
+  }
+
+
+
+.thirdimg{
   background:
-  linear-gradient(
-  rgba(0, 0, 0, 0.7),
-  rgba(0, 0, 0, 0.7)
-  ), 
-  url('./assets/lastm');
-  background-repeat: no-repeat;
-  background-size: cover;
-  bottom:0;
- }
-
- 
-
-@media only screen and (max-width: 900px) and (min-width: 801px){
-  .mheadt{
-    padding-top: 20vh;
-    font-size: 8.5vw;
-  }
-
-  .minfo {
-    font-size: 4vw;
-    padding-top: 4vh;
-    padding-bottom: 2vh;
-  }
-
-  .infop{
-    font-size: 2vw;
-    width: 84vw;
-    padding-left: 8vw;
-    padding-right: 8vw;
-    padding-bottom: 2vh;
-  }
-  .p1{
-    width: 48vw;
-    transform: translateX(0%);
-    margin: 0;
-  }
-  .p2{
-    width: 48vw;
-    z-index: 2;
-    transform: translateX(-49%);
-    margin: 0;
-  }
-  .p3{
-    width: 48vw;
-    transform: translateX(-100%);
-    margin: 0;
-  }
- 
-  .sea{
-    font-size: 2.3vw;
-  }
-
-  .seap{
-    font-size: 1.6vw;
-  }
-
-  .mmn{
-    font-size: 4vw;
-  }
-  
-  .pfp{
-    width: 15vw;
-    height:15vw;
- 
-  }
-  
-  .teamm{
-
-    margin-bottom: 3vh;
-    width: 30vw;
-  }
-
-  .name{
-    font-size: 2.1vw;
-    font-weight: 400;
-  }
-  .pdis{
-    font-size: 1.6vw;
-    font-weight: 400;
-    
-  }
-  
-  .mainf{
-    width: 70vw;
-    padding-top: 12vh;
-   }
-   
-   .minte{
-     font-family: 'Oswald', sans-serif;
-     font-size: 2vw;
-     
-     color: #ccc5b9;
-     transform: translateY(15.5vw);
-   }
-   
-   .me{
-    width: 50vw;
-   }
-  
-   .created{
-    font-family: 'Geologica', sans-serif;
-    color:#ccc5b9;
-    font-size: 1.6vw;
-    
-  }
-  
-  .lastb{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  
-  .italics{
-
-    padding-top: 0.1vw;
-    padding-left: 0.4vw;
-  
-    font-size: 1.6vw;
-  }
-  
-  .icont{
-  
-    font-size: 5vw;
-    padding-right: 4vw;
-    padding-left: 4vw;
-    padding-top: 2vh;
-  
-   }
-  
-   .lastm{
-    height: 19vh;
-   }
-
-   .icon{
-    max-height: 6vw;
-  }
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.9), 
+          rgba(0, 0, 0, 0.9)
+        ),
+        /* bottom, image */
+        url("./assets/thirr.jpg");
+   background-size: cover;
+   min-height: 120vh;
+   width: 100vw;
+   background-repeat: no-repeat;
+   padding-bottom: 5vh
+  ;
 }
 
-@media only screen and (max-width: 800px) and (min-width: 701px){
-  .mheadt{
-    padding-top: 20vh;
-    font-size: 8.5vw;
-  }
+  /*FAQ*/
 
-  .minfo {
-    font-size: 4vw;
-    padding-top: 4vh;
-    padding-bottom: 2vh;
-  }
-
-  .infop{
-    font-size: 2vw;
-    width: 84vw;
-    padding-left: 8vw;
-    padding-right: 8vw;
-    padding-bottom: 2vh;
-  }
-  .p1{
-    width: 48vw;
-    transform: translateX(0%);
-    margin: 0;
-  }
-  .p2{
-    width: 48vw;
-    z-index: 2;
-    transform: translateX(-49%);
-    margin: 0;
-  }
-  .p3{
-    width: 48vw;
-    transform: translateX(-100%);
-    margin: 0;
-  }
- 
-  .sea{
-    font-size: 2.3vw;
-  }
-
-  .seap{
-    font-size: 2vw;
-  }
-
-  .mmn{
-    font-size: 4vw;
-  }
-  
-  .pfp{
-    width: 15vw;
-    height:15vw;
- 
-  }
-  
-  .teamm{
-
-    margin-bottom: 3vh;
-    width: 30vw;
-  }
-
-  .name{
-    font-size: 2.1vw;
-    font-weight: 400;
-  }
-  .pdis{
-    font-size: 1.6vw;
-    font-weight: 400;
-    
-  }
-  
-  .mainf{
-    width: 70vw;
-    padding-top: 12vh;
-   }
-   
-   .minte{
-     font-family: 'Oswald', sans-serif;
-     font-size: 2vw;
-     
-     color: #ccc5b9;
-     transform: translateY(15.5vw);
-   }
-   
-   .me{
-    width: 50vw;
-   }
-  
-   .created{
-    font-family: 'Geologica', sans-serif;
-    color:#ccc5b9;
-    font-size: 1.6vw;
-    
-  }
-  
-  .lastb{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  
-  .italics{
-
-    padding-top: 0.1vw;
-    padding-left: 0.4vw;
-  
-    font-size: 1.6vw;
-  }
-  
-  .icont{
-  
-    font-size: 5vw;
-    padding-right: 4vw;
-    padding-left: 4vw;
-    padding-top: 2vh;
-  
-   }
-  
-   .lastm{
-    height: 18vh;
-   }
-
-   .icon{
-    max-height: 6vw;
-  }
-}
-
-@media only screen and (max-width: 700px) and (min-width: 601px){
-  .mheadt{
-    padding-top: 20vh;
-    font-size: 8.5vw;
-  }
-
-  .minfo {
-    font-size: 4.5vw;
-    padding-top: 4vh;
-    padding-bottom: 2vh;
-  }
-
-  .infop{
-    font-size: 2vw;
-    width: 84vw;
-    padding-left: 8vw;
-    padding-right: 8vw;
-    padding-bottom: 2vh;
-  }
-  .p1{
-    width: 48vw;
-    transform: translateX(0%);
-    margin: 0;
-  }
-  .p2{
-    width: 48vw;
-    z-index: 2;
-    transform: translateX(-49%);
-    margin: 0;
-  }
-  .p3{
-    width: 48vw;
-    transform: translateX(-100%);
-    margin: 0;
-  }
- 
-  .sea{
-    font-size: 2.5vw;
-  }
-
-  .seap{
-    font-size: 2vw;
-  }
-
-  .mmn{
-    font-size: 4vw;
-  }
-  
-  .pfp{
-    width: 18vw;
-    height:18vw;
- 
-  }
-  
-  .teamm{
-
-    margin-bottom: 3vh;
-    width: 32vw;
-  }
-
-  .name{
-    font-size: 2.1vw;
-    font-weight: 400;
-  }
-  .pdis{
-    font-size: 1.6vw;
-    font-weight: 400;
-    
-  }
-  
-  .mainf{
-    width: 70vw;
-    padding-top: 12vh;
-   }
-   
-   .minte{
-     font-family: 'Oswald', sans-serif;
-     font-size: 2vw;
-     
-     color: #ccc5b9;
-     transform: translateY(15.5vw);
-   }
-   
-   .me{
-    width: 50vw;
-   }
-  
-   .created{
-    font-family: 'Geologica', sans-serif;
-    color:#ccc5b9;
-    font-size: 2vw;
-    
-  }
-  
-  .lastb{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  
-  .italics{
-
-    padding-top: 0.1vw;
-    padding-left: 0.4vw;
-  
-    font-size: 2vw;
-  }
-  
-  .icont{
-  
-    font-size: 6vw;
-    padding-right: 4vw;
-    padding-left: 4vw;
-    padding-top: 2vh;
-  
-   }
-  
-   .lastm{
-    height: 18vh;
-   }
-
-   .icon{
-    max-height: 8vw;
-  }
-}
-
-@media only screen and (min-width: 501px) and (max-width: 600px){
-  .mheadt{
-    padding-top: 30vh;
-    font-size: 9vw;
-  }
-
-  .minfo {
-    font-size: 4.5vw;
-    padding-top: 4vh;
-    padding-bottom: 2vh;
-  }
-
-  .infop{
-    font-size: 2.5vw;
-    width: 90vw;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    padding-bottom: 2vh;
-  }
-  .p1{
-    width: 48vw;
-    transform: translateX(0%);
-    margin: 0;
-  }
-  .p2{
-    width: 48vw;
-    z-index: 2;
-    transform: translateX(-49%);
-    margin: 0;
-  }
-  .p3{
-    width: 48vw;
-    transform: translateX(-100%);
-    margin: 0;
-  }
- 
-  .sea{
-    font-size: 3vw;
-  }
-
-  .seap{
-    font-size: 2.5vw;
-  }
-
-  .mmn{
-    font-size: 4.5vw;
-  }
-  
-  .pfp{
-    width: 20vw;
-    height:20vw;
- 
-  }
-  
-  .teamm{
-
-    margin-bottom: 3vh;
-    width: 41vw;
-  }
-
-  .name{
-    font-size: 2.5vw;
-    font-weight: 400;
-  }
-  .pdis{
-    font-size: 2vw;
-    font-weight: 400;
-    
-  }
-  
-  .mainf{
-    width: 70vw;
-    padding-top: 12vh;
-   }
-   
-   .minte{
-     font-family: 'Oswald', sans-serif;
-     font-size: 3vw;
-     
-     color: #ccc5b9;
-     transform: translateY(18vw);
-   }
-   
-   .me{
-    width: 60vw;
-   }
-  
-   .created{
-    font-family: 'Geologica', sans-serif;
-    color:#ccc5b9;
-    font-size: 2.5vw;
-    
-  }
-  
-  .lastb{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  
-  .italics{
-
-    padding-top: 0.1vw;
-    padding-left: 0.4vw;
-  
-    font-size: 2.5vw;
-  }
-  
-  .icont{
-  
-    font-size: 8vw;
-    padding-right: 4vw;
-    padding-left: 4vw;
-    padding-top: 2vh;
-  
-   }
-  
-   .lastm{
-    height: 20vh;
-   }
-
-   .icon{
-    max-height: 8vw;
-  }
+*, *:after, *:before {
+	box-sizing: border-box;
 }
 
 
-@media only screen and (min-width: 401px) and (max-width: 500px){
-  .mheadt{
-    padding-top: 52vh;
-    font-size: 10vw;
-  }
-
-  .minfo {
-    font-size: 5vw;
-    padding-top: 4vh;
-    padding-bottom: 2vh;
-  }
-
-  .infop{
-    font-size: 3vw;
-    width: 90vw;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    padding-bottom: 2vh;
-  }
-  .p1{
-    width: 48vw;
-    transform: translateX(0%);
-    margin: 0;
-  }
-  .p2{
-    width: 48vw;
-    z-index: 2;
-    transform: translateX(-49%);
-    margin: 0;
-  }
-  .p3{
-    width: 48vw;
-    transform: translateX(-100%);
-    margin: 0;
-  }
- 
-  .sea{
-    font-size: 3.5vw;
-  }
-
-  .seap{
-    font-size: 3vw;
-  }
-
-  .mmn{
-    font-size: 5vw;
-  }
-  
-  .pfp{
-    width: 20vw;
-    height:20vw;
- 
-  }
-  
-  .teamm{
-
-    margin-bottom: 3vh;
-    width: 41vw;
-  }
-
-  .name{
-    font-size: 2.5vw;
-    font-weight: 400;
-  }
-  .pdis{
-    font-size: 2vw;
-    font-weight: 400;
-    
-  }
-  
-  .mainf{
-    width: 70vw;
-    padding-top: 12vh;
-   }
-   
-   .minte{
-     font-family: 'Oswald', sans-serif;
-     font-size: 3vw;
-     
-     color: #ccc5b9;
-     transform: translateY(18vw);
-   }
-   
-   .me{
-    width: 60vw;
-   }
-  
-   .created{
-    font-family: 'Geologica', sans-serif;
-    color:#ccc5b9;
-    font-size: 3.5vw;
-    
-  }
-  
-  .lastb{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  
-  .italics{
-
-    padding-top: 0.1vw;
-    padding-left: 0.4vw;
-  
-    font-size: 3.5vw;
-  }
-  
-  .icont{
-  
-    font-size: 10vw;
-    padding-right: 4vw;
-    padding-left: 4vw;
-    padding-top: 2vh;
-  
-   }
-  
-   .lastm{
-    height: 20vh;
-   }
-
-   .icon{
-    max-height: 10vw;
-  }
+.abody {
+	line-height: 1.5;
+	font-size: 1.25rem;
 }
 
-@media only screen and (min-width: 321px) and (max-width: 400px){
-  .mheadt{
-    padding-top: 50vh;
-    font-size: 10vw;
-  }
-
-  .minfo {
-    font-size: 5vw;
-    padding-top: 4vh;
-    padding-bottom: 2vh;
-  }
-
-  .infop{
-    font-size: 3vw;
-    width: 90vw;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    padding-bottom: 2vh;
-  }
-  .p1{
-    width: 48vw;
-    transform: translateX(0%);
-    margin: 0;
-  }
-  .p2{
-    width: 48vw;
-    z-index: 2;
-    transform: translateX(-49%);
-    margin: 0;
-  }
-  .p3{
-    width: 48vw;
-    transform: translateX(-100%);
-    margin: 0;
-  }
- 
-  .sea{
-    font-size: 3.5vw;
-  }
-
-  .seap{
-    font-size: 3vw;
-  }
-
-  .mmn{
-    font-size: 5vw;
-  }
-  
-  .pfp{
-    width: 20vw;
-    height:20vw;
- 
-  }
-  
-  .teamm{
-
-    margin-bottom: 3vh;
-    width: 41vw;
-  }
-
-  .name{
-    font-size: 2.5vw;
-    font-weight: 400;
-  }
-  .pdis{
-    font-size: 2vw;
-    font-weight: 400;
-    
-  }
-  
-  .mainf{
-    width: 70vw;
-    padding-top: 12vh;
-   }
-   
-   .minte{
-     font-family: 'Oswald', sans-serif;
-     font-size: 3vw;
-     
-     color: #ccc5b9;
-     transform: translateY(18vw);
-   }
-   
-   .me{
-    width: 60vw;
-   }
-  
-   .created{
-    font-family: 'Geologica', sans-serif;
-    color:#ccc5b9;
-    font-size: 3.5vw;
-    
-  }
-  
-  .lastb{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  
-  .italics{
-
-    padding-top: 0.1vw;
-    padding-left: 0.4vw;
-  
-    font-size: 3.5vw;
-  }
-  
-  .icont{
-  
-    font-size: 10vw;
-    padding-right: 4vw;
-    padding-left: 4vw;
-    padding-top: 2vh;
-  
-   }
-  
-   .lastm{
-    height: 18vh;
-   }
-
-   .icon{
-    max-height: 10vw;
-  }
+*:focus {
+	outline: none;
 }
 
-@media only screen and (max-width: 320px) and (min-width: 291px){
-  .mheadt{
-    padding-top: 56vh;
-    font-size: 10vw;
-  }
-
-  .minfo {
-    font-size: 5vw;
-    padding-top: 4vh;
-    padding-bottom: 2vh;
-  }
-
-  .infop{
-    font-size: 3vw;
-    width: 90vw;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    padding-bottom: 2vh;
-  }
-  .p1{
-    width: 48vw;
-    transform: translateX(0%);
-    margin: 0;
-  }
-  .p2{
-    width: 48vw;
-    z-index: 2;
-    transform: translateX(-49%);
-    margin: 0;
-  }
-  .p3{
-    width: 48vw;
-    transform: translateX(-100%);
-    margin: 0;
-  }
- 
-  .sea{
-    font-size: 3.5vw;
-  }
-
-  .seap{
-    font-size: 3vw;
-  }
-
-  .mmn{
-    font-size: 5vw;
-  }
-  
-  .pfp{
-    width: 20vw;
-    height:20vw;
- 
-  }
-  
-  .teamm{
-
-    margin-bottom: 3vh;
-    width: 41vw;
-  }
-
-  .name{
-    font-size: 2.5vw;
-    font-weight: 400;
-  }
-  .pdis{
-    font-size: 2vw;
-    font-weight: 400;
-    
-  }
-  
-  .mainf{
-    width: 70vw;
-    padding-top: 12vh;
-   }
-   
-   .minte{
-     font-family: 'Oswald', sans-serif;
-     font-size: 3vw;
-     
-     color: #ccc5b9;
-     transform: translateY(18vw);
-   }
-   
-   .me{
-    width: 60vw;
-   }
-  
-   .created{
-    font-family: 'Geologica', sans-serif;
-    color:#ccc5b9;
-    font-size: 3.5vw;
-    
-  }
-  
-  .lastb{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  
-  .italics{
-
-    padding-top: 0.1vw;
-    padding-left: 0.4vw;
-  
-    font-size: 3.5vw;
-  }
-  
-  .icont{
-  
-    font-size: 10vw;
-    padding-right: 4vw;
-    padding-left: 4vw;
-    padding-top: 2vh;
-  
-   }
-  
-   .lastm{
-    height: 16vh;
-   }
-
-   .icon{
-    max-height: 10vw;
-  }
+.abody {
+	width: 50vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+  font-family: 'Poppins', sans-serif;
 }
 
-@media only screen and (max-width: 290px){
-  .mheadt{
-    padding-top: 58vh;
-    font-size: 10vw;
-  }
-
-  .minfo {
-    font-size: 5vw;
-    padding-top: 4vh;
-    padding-bottom: 2vh;
-  }
-
-  .infop{
-    font-size: 3vw;
-    width: 90vw;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    padding-bottom: 2vh;
-  }
-  .p1{
-    width: 48vw;
-    transform: translateX(0%);
-    margin: 0;
-  }
-  .p2{
-    width: 48vw;
-    z-index: 2;
-    transform: translateX(-49%);
-    margin: 0;
-  }
-  .p3{
-    width: 48vw;
-    transform: translateX(-100%);
-    margin: 0;
-  }
- 
-  .sea{
-    font-size: 3.5vw;
-  }
-
-  .seap{
-    font-size: 3vw;
-  }
-
-  .mmn{
-    font-size: 5vw;
-  }
-  
-  .pfp{
-    width: 20vw;
-    height:20vw;
- 
-  }
-  
-  .teamm{
-
-    margin-bottom: 3vh;
-    width: 41vw;
-  }
-
-  .name{
-    font-size: 2.5vw;
-    font-weight: 400;
-  }
-  .pdis{
-    font-size: 2vw;
-    font-weight: 400;
-    
-  }
-  
-  .mainf{
-    width: 70vw;
-    padding-top: 12vh;
-   }
-   
-   .minte{
-     font-family: 'Oswald', sans-serif;
-     font-size: 3vw;
-     
-     color: #ccc5b9;
-     transform: translateY(18vw);
-   }
-   
-   .me{
-    width: 60vw;
-   }
-  
-   .created{
-    font-family: 'Geologica', sans-serif;
-    color:#ccc5b9;
-    font-size: 3.5vw;
-    
-  }
-  
-  .lastb{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  
-  .italics{
-
-    padding-top: 0.1vw;
-    padding-left: 0.4vw;
-  
-    font-size: 3.5vw;
-  }
-  
-  .icont{
-  
-    font-size: 10vw;
-    padding-right: 4vw;
-    padding-left: 4vw;
-    padding-top: 2vh;
-  
-   }
-  
-   .lastm{
-    height: 13vh;
-   }
-
-   .icon{
-    max-height: 10vw;
-  }
+details div {
+	border-left: 2px solid #5a5a5a;
+	border-right: 2px solid #5a5a5a;
+	border-bottom: 2px solid #5a5a5a;
+	padding: 1.5em;
 }
+
+details div > * + * {
+	margin-top: 1.5em;
+}
+
+details + details {
+	margin-top: .5rem;
+}
+
+summary {
+	list-style: none;
+  font-size: 1rem;
+}
+
+.stext{
+  font-size: 1rem;
+  color: white;
+}
+
+summary::-webkit-details-marker {
+	display: none;
+}
+
+summary {
+	border: 2px solid #5a5a5a;
+	padding: .75em 1em;
+	cursor: pointer;
+	position: relative;
+	padding-left: calc(1.75rem + .75rem + .75rem);
+ font-weight: 600;
+ color: rgb(183, 183, 183);
+}
+
+summary:before {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: .75rem;
+	content: "↓";
+	width: 1.75rem;
+	height: 1.75rem;
+	background-color: #000;
+	color: #FFF;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+
+}
+
+details[open] summary {
+	background-color: #eee;
+  color: #000;
+}
+
+details[open] summary:before {
+	content: "↑";
+}
+
+summary:hover {
+	background-color: #eee;
+  color: #000;
+}
+
+.linkk{
+	color: inherit;
+	font-weight: 600;
+	text-decoration: none;
+	box-shadow: 0 1px 0 0;
+}
+
+.linkk:hover {
+	box-shadow: 0 3px 0 0;
+}
+
+code {
+	font-family: monospace;
+	font-weight: 600;
+}
+  
+ .ds{
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 0.8em;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  .tdis{
+    justify-content: center;
+    width:100%;
+
+  }
+
+  @media only screen and (max-width: 500px) {
+   .p1{
+    width: 55vw;
+   }
+
+   .p3{
+    width: 55vw;
+   }
+
+   .p2{
+    width: 55vw;
+   }
+
+    .three{
+      width: 100vw;
+      transform: translateX(-30.5%);
+    }
+
+    .mheadt{
+      font-size: 17vw;
+      padding-top: 0px;
+      transform:translate(0%,0%);
+    }
+
+    .minfo{
+      padding-top: 12vh;
+      font-size: 7vw;
+      margin-bottom: 4vh;
+    }
+    
+    .infop{
+      width: 90vw;
+      margin-bottom: 12vh;
+    }
+
+    .tmaind{
+      width:80vw;
+      margin-left: 10vw;
+    }
+    
+    .num{
+      font-size:10vw;
+      font-weight: 800;
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+    
+      .ds{
+        font-size:0.8em;
+      font-weight: 400;
+      color: aliceblue;
+      }
+
+      .pfp{
+        width: 20vw;
+        height:20vw;
+        border-radius: 7px;
+        }
+        
+        .teamm{
+        display: flex;
+        margin-bottom: 3vh;
+        width: 23vw;
+        }
+        
+        .name{
+        font-size: 4vw;
+        font-weight: 800;
+        }
+        .pdis{
+        font-size: 3vw;
+        font-weight: 600;
+        }
+        
+        .mainpd{
+          width: 90vw;
+          margin: auto;
+          transform: translateX(-5%);
+        }
+
+        .mmn{
+          padding-top: 30vw;
+        }
+
+        .abody {
+          width: 80vw;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 10rem;
+          margin-bottom: 5rem;
+          font-family: 'Poppins', sans-serif;
+        }
+
+        .me{
+          width: 32vw;
+          }
+          
+          .created{
+          font-family: 'Geologica', sans-serif;
+          color:#ccc5b9
+          }
+          
+          .lastb{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          }
+          
+          .italics{
+          font-style: italic;
+          font-family: 'Geologica', sans-serif;
+          padding-top: 0.1vw;
+          padding-left: 0.4vw;
+          color: #fbbe74;
+          }
+          
+          .icontt{
+          color: white;
+          font-size: 10vw;
+          width: 20vw;
+          
+          }
+          
+          .icond{
+            padding-top: 4vh;
+            padding-bottom: 2vh;
+          }
+          
+          .lastm{
+          width: 100vw;
+          min-height: 20vh;       
+          margin: 0;
+          padding: 0;
+          }
+
+          .thirdimg{
+             min-height: 100vh;
+             width: 100vw;
+             padding-bottom: 5vh
+            ;
+          }
+          
+  }

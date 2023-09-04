@@ -4,119 +4,144 @@ import picon from './assets/picon.png';
 import p1 from './assets/p1.png';
 import p2 from './assets/p2.png';
 import p3 from './assets/p3.png';
-import mike from "./assets/mike.png";
-import mr from "./assets/mr.png";
+import mr from "./assets/mr.jpg";
 import pix from "./assets/pix.png";
-import deg from "./assets/deg.png";
 import Teamp from "./team";
-import me from "./assets/me.svg";
-import mainf from "./assets/mainf";
-import lastm from "./assets/lastm"
-import { FaDiscord } from 'react-icons/fa';
+import { BsDiscord } from 'react-icons/bs';
 import { FaTwitter} from 'react-icons/fa';
+import { motion } from 'framer-motion';
+
 
 function App() {
   return (
     <div className="App">
+      <div className='mhead'>
       <div className="head">
-      <a href='https://twitter.com/MNFSTLabs' target="_blank"><img src={micon} className='icon'/></a>
-      <a href='https://twitter.com/0xPolygon' target="_blank"><img src={picon} className='icon'/></a>
+      <a href='https://twitter.com/reaversnft' target="_blank"><img src={micon} className='icon'/></a>
+      <a href='https://twitter.com/solana' target="_blank"><img src={picon} className='icon'/></a>
       </div>
-      <h1 className='mheadt'>RING RUNNERZ</h1>
+      <div className='mainbox'>
+      <motion.div
+        initial={{ opacity: 0 }} // Initial state
+        animate={{ opacity: 1 }}    // Animation state
+        transition={{ duration: 1, delay:0.5 }}  >
+      <h1 className='mheadt'>REAVERS</h1>
+      </motion.div>
       <div className='three'>
-      <img src={p1} className='p1'/>
-      <img src={p3} className='p2'/>
-      <img src={p2} className='p3'/>
+      <motion.div
+        initial={{ opacity: 0, x: -100 }} // Initial state
+        animate={{ opacity: 1, x: 0 }}    // Animation state
+        transition={{ duration: 1 }}  >
+      <img src={p1} className='p1'/></motion.div>
+      <motion.div
+        initial={{ opacity: 0, y: 100 }} // Initial state
+        animate={{ opacity: 1, y: 0 }}    // Animation state
+        transition={{ duration: 1 }}  >
+      <img src={p3} className='p2'/></motion.div>
+      <motion.div
+        initial={{ opacity: 0, x: 100 }} // Initial state
+        animate={{ opacity: 1, x: 0 }}    // Animation state
+        transition={{ duration: 1 }}  >
+      <img src={p2} className='p3'/></motion.div>
       </div>
+      </div>
+      </div>
+
+      
       <div className='line'></div>
-      <h1 className='minfo'>WHAT IS RING RUNNERZ?</h1>
-      <p className='infop'>Ring Runnerz is a play-to-earn game within the ecosystem of MNFST Lab, an avant-garde in the NFT industry. Players will be rewarded with tokens for their dedication and accomplishments. Brace yourself for intense competition as prize pool competitions offer enticing rewards, including rare artifacts and exclusive bonuses that propel players to reach new heights. The Ring Runnerz offer a captivating on-chain gameplay experience, allowing players to stake assets, manipulate mechanics, and interact with smart contracts.</p>
-    
-      <section className="design-section">
-      <div className="timeline">
-
-        {/* The div below is used to fill space for dates */}
-        <div className="timeline-empty">
-        </div>
-
-        {/* Timeline graphics */}
-        <div className="timeline-middle">
-          <div className="timeline-circle"></div>
-        </div>
-
-        {/* Timeline component with HTML content */}
-        <div className="timeline-component timeline-content">
-          <h3 className='sea'>SEASON 1</h3>
-          <p className='seap'>Season 1 lasts approximately 90 days and is the initial launch phase of Ring Runnerz. Token Distribution rewards players based on participation and achievements. Prize Pool Competitions offer valuable rewards and incentives for competitive gameplay.</p>
-        </div>
-
-        {/* Timeline component with CSS content */}
-        <div className="timeline-component timeline-content">
-          <h3 className='sea'>SEASON 2</h3>
-          <p className='seap'>Season 2 also lasts approximately 90 days and builds upon Season 1. Art Updates and Expansion enhance the game's visuals and lore. Art Sizing is increased by 50% for more immersive graphics. Browser Game Development Continuation focuses on making the game accessible across platforms.</p>
-        </div>
-
-        {/* Another timeline graphics */}
-        <div className="timeline-middle">
-          <div className="timeline-circle"></div>
-        </div>
-
-        {/* Additional empty space */}
-        <div className="timeline-empty">
-        </div>
-
-        <div className="timeline-empty">
-        </div>
-
-        {/* Timeline graphics */}
-        <div className="timeline-middle">
-          <div className="timeline-circle"></div>
-        </div>
-
-        {/* Timeline component with JavaScript content */}
-        <div className="timeline-component timeline-content">
-          <h3 className='sea'>SEASON 3</h3>
-          <p className='seap'>The Takeoff...</p>
-        </div>
-
+      <div className='spart'>
+      <h1 className='minfo'>WHAT IS REAVERS?</h1>
+      <p className='infop'>Reavers is an engaging idle game that revolves around the delicate balance of risk versus reward. This game empowers you with decision-making, offering various avenues to accumulate wealth, each with its unique pace and advantages. As you advance through levels, you'll have the opportunity to plunder bustling cities, raid lucrative docks, all while steering clear of potential prison time or the dangers of mutiny. The question remains: Do you possess the skills to successfully navigate the treacherous waters of the seven seas?"</p>
+      
+      
+      
+      <div className="tmaind">
+      <div className="tnum">
+      <div className="tdis">
+      <h1 className="num">
+      18K+
+      </h1>
+      <p className="ds">
+      Followers On Twitter
+      </p>
       </div>
-    </section>
+      <div className="tdis">
+      <h1 className="num">
+      20K+
+      </h1>
+      <p className="ds">
+      Degens On Discord
+        </p>
+      </div>
+      <div className="tdis">
+      <h1 className="num">
+      10000
+      </h1>
+      <p className="ds">
+      NFTs Will be Minted
+        </p>
+      </div>
+      </div>
+   </div>
+   </div>
+
+   <div className='thirdimg'>
     <div className='mmn'>
     Meet The Team
     </div>
     <div className="mainpd">
     
     <div className="mainpd1">
-    <a href = "https://twitter.com/MrMintETH/"target="_blank" >
-    <Teamp name = "MRMINT.ETH" dis ="Founder" pfp = {mr}/>
+    <a href = "https://twitter.com/cryptomape"target="_blank" >
+    <Teamp name = "MAPE" dis ="Founder & CEO" pfp = {mr}/>
     </a>
 
-    <a href = "https://twitter.com/pixxelznft" target="_blank">
-    <Teamp name = "PIXXELZ.ETH" dis ="Head of Marketing" pfp = {pix}/>
+    <a href = "https://twitter.com/emploiceSOL" target="_blank">
+    <Teamp name = "EMPLOICE" dis ="Founder & COO" pfp = {pix}/>
     </a>
     </div>
+
 
     <div className="mainpd1">
-    <a href = "https://twitter.com/mikeejt" target="_blank">
-    <Teamp name = "MIKEEJT" dis ="Dev Lead" pfp = {mike}/>
-    </a>
-    
-    
-    <Teamp name = "DEGENNL" dis ="Prpject Manager" pfp = {deg}/>
     
     </div>
     </div>
-    <img src= {mainf} className='mainf'/>
-    <h2 className='minte'>Mint and Trade Exclusively on</h2>
-    <a href='https://magiceden.io/launchpad/polygon/ring_runnerz' target="_blank"><img src= {me} className='me'/></a>
-   
+    <div className='abody'>
+	<details open>
+		<summary>
+    WHAT IS $ARRR?
+		</summary>
+		<div className='stext'>
+		$ARRR is central in Reavers and the entire eco-system. Everything you do in the game costs $ARRR. If a user spends $ARRR on any utility, it's forever burnt and removed from the supply.
+
+		</div>
+	</details>
+	<details>
+		<summary>
+    HOW MUCH $ARRR EXISTS?
+		</summary>
+		<div className='stext'>
+    $ARRR has a capped supply of 1.1B and there will never be enough for all users to be able to do everything in the game. The demand will always be higher than the supply.
+
+		</div>
+	</details>
+	<details>
+		<summary>
+		HOW TO LOOT $ARRR
+		</summary>
+		<div className='stext'>
+    The only way to obtain $ARRR will be through plunders in-game. Plundering on higher levels and layers emitts a higher yield.
+		</div>
+	</details>
+</div>
+</div>
     <div className='lastm' >
     <div className = "icond">
-    <a href = "https://discord.gg/mnfstlabs" target="_blank" >
-    <FaDiscord className='icont'/>
+    <a href = "https://discord.com/invite/reavers" target="_blank" >
+    <BsDiscord className='icontt'/>
     </a>
-    <a href = "https://twitter.com/RingRunnerz" target="_blank">
-    <FaTwitter className='icont'/>
+    <a href = "https://twitter.com/reaversnft" target="_blank">
+    <FaTwitter className='icontt'/>
     </a>
     </div>
     <div className='lastb'>
